@@ -67,10 +67,17 @@ picker.canPickAsset = { (asset:Asset) -> Bool in
 
 ## Requirements
 
-- Swift 2.2 later
+- Swift 4.2 later
 - iOS 8.0 later
 
 ## Installation
+
+### CocoaPods
+Use [CocoaPods](https://cocoapods.org).
+
+- Add `pod 'NohanaImagePicker', :git => 'https://github.com/kubacizek/NohanaImagePicker.git'
+` to your Podfile.
+- Run `pod install`.
 
 ### Carthage
 
